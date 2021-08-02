@@ -2,7 +2,6 @@ class Solution{
 public:
     int dp[1005][1005];
     int solve(int i,int n,int w, int val[], int wt[]){
-        
         if(i>=n || w<0)
             return 0;
         if(dp[i][w]!=-1)
