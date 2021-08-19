@@ -1,3 +1,4 @@
+// recursive + memoization
 class Solution{  
 public:
     int dp[105][10005];
@@ -19,3 +20,4 @@ public:
         return fun(0,N,arr,sum);
     }
 };
+
