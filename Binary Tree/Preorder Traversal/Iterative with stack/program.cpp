@@ -1,3 +1,4 @@
+// TC-O(N) SC-O(N)
 vector <int> preorder(Node* root){
     stack<Node*> st;
     vector<int> ans;

@@ -1,3 +1,4 @@
+// TC-O(N) SC-O(N)
 class Solution{
     public:
     int height(struct Node* node){

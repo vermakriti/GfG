@@ -1,3 +1,6 @@
+//TC-O(N) SC-O(1)
+// predecessor - In left subtree of curr,pick the rightmost node, not equal to curr or null
+
 Node*findPredecessor(Node*root){
     
     Node*curr=root->left;
